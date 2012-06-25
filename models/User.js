@@ -1,6 +1,5 @@
 var mongoose = require('mongoose'),
-    Schema = mongoose.Schema,
-    km_client = require('kissmetrics');
+    Schema = mongoose.Schema;
 
 var Value = new Schema({
   key: String,

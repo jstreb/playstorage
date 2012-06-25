@@ -3,17 +3,21 @@ module.exports = {
   development: {
     port: port,
     mongodb: {
-      host: 'localhost',
-      port:  27017,
-      database: 'xplorio-dev'
+      username: 'jstreb',
+      password: 'pickle37!',
+      host: 'bernard.mongohq.com',
+      port:  10017,
+      database: 'app5541893'
     }
   },
   production: {
     port: port,
     mongodb: {
-      host: 'localhost',
-      port:  27017,
-      database: 'xplorio-dev'
+      username: 'jstreb',
+      password: 'pickle37!',
+      host: 'bernard.mongohq.com',
+      port:  10017,
+      database: 'app5541893'
     }
   }
 };
