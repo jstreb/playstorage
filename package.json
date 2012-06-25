@@ -1,0 +1,16 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "engines": {
+      "node": "0.6.14",
+      "npm": "1.1.9"
+    }
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+    , "hooks": "0.2.0"
+    , "mongodb": "0.9.9-3"
+    , "mongoose": "2.5.9"
+  }
+}
